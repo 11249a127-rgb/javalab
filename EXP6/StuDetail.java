@@ -51,11 +51,16 @@ class Result extends Student implements Exam {
 }
 public class StuDetail {
     public static void main(String[] args) {
-       Result R = new Result("jithu", 18, 93, 84);
+       Result R = new Result("sai", 18, 93, 84);
         R.display();
         R.percent_cal();
     }
 }
-
+//output:
+    Name of Student: sai
+Roll No. of Student: 18
+Marks of Subject 1: 93
+Marks of Subject 2: 84
+Percentage: 88.5%
 //Result:
 The Java program was executed successfully. It displays the student's name, roll number, marks in two subjects, and the calculated percentage.
